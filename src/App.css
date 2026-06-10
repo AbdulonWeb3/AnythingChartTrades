@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+  background: #111;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero button {
+  padding: 12px 20px;
+  margin-top: 15px;
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+/* PRICING */
+.pricing {
+  padding: 50px 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid white;
+  padding: 20px;
+  width: 150px;
+}
+
+/* SIGNALS */
+.signals {
+  padding: 40px;
+  background: #111;
+}
+
+.signals ul {
+  list-style: none;
+  padding: 0;
+}
+
+.signals li {
+  padding: 8px 0;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  font-size: 12px;
+  opacity: 0.6;
+}
